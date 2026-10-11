@@ -7,6 +7,10 @@ conversationnel qui répond aux questions sur ces prévisions.
 > `data/`, les CSV de `outputs/`, la base SQLite et l'index Chroma ne sont pas publiés dans ce dépôt.
 > L'application Streamlit s'exécute en local et n'est pas hébergée.
 
+![Pipeline du projet](docs/pipeline.png)
+
+![Pipeline du projet](docs/pipeline.png)
+
 ## Structure
 
 | Dossier / fichier | Rôle |
