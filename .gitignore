@@ -1,0 +1,26 @@
+# Secrets
+.env
+
+# Environnements et caches Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Modèle d'embeddings téléchargé automatiquement au premier lancement
+agent/modeles_embeddings/
+
+# Bases de données (régénérables, non publiées)
+*.db
+*.sqlite3
+agent/chroma_db/
+
+# Données de stage confidentielles et résultats du pipeline
+data/
+outputs/
+
+# Rapport Power BI avec données importées (seul le modèle .pbit est publié)
+*.pbix
+
+# Copie locale du notebook avec ses résultats (contient des données)
+notebooks/*_avec_resultats.ipynb

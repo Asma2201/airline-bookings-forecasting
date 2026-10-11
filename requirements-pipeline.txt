@@ -1,0 +1,8 @@
+pandas>=2.2.3
+numpy
+statsmodels
+prophet
+lightgbm
+xgboost
+scikit-learn
+openpyxl
